@@ -51,7 +51,7 @@
             data: [ ],
             axisLabel: {
               interval: 0,
-              rotate: 270
+              rotate: 0
             }
           },
           yAxis: {
@@ -68,7 +68,12 @@
               name: '',
               type: 'bar',
               barGap: 0,
-              data: [ ]
+              data: [ ],
+              itemStyle: {
+                normal: {
+                  color: '#61A0A8'
+                }
+              }
             }
           ]
         }
